@@ -184,7 +184,7 @@ def main():
     parser.add_argument("-s", "--secrets", help="Path to secrets JSON file", type=str)
 
     args = parser.parse_args()
-    print_logo()
+    # print_logo()
 
     if not args.url and not args.file:
         console.print("[red]Error: You must specify a URL or a file with --url or --file.[/red]")
